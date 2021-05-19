@@ -1,2 +1,2 @@
-# todoist-notion-sync
-sync items between todoist and notion
+# notion-sync
+sync items between notion and {todoist, fitbit, duolingo, etc}
