@@ -4,3 +4,4 @@
     - duolingo status
     - journal status
     - fitbit sleep
+    - waking up
