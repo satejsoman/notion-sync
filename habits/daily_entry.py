@@ -1,16 +1,16 @@
-from pathlib import Path
-import json 
 import datetime
+import json
+from pathlib import Path
 
 import requests
 
 weekdays = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
 
 try:
-    pwd = Path(__file__).resolve().parent
+    pwd = Path(__file__).resolve().parent.parent
 except NameError:
     pwd = Path.cwd()
-with (pwd / ".." / "creds.json").open() as f:
+with (pwd / "creds.json").open() as f:
     creds = json.load(f)
 
 now = datetime.datetime.now()
